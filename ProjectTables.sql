@@ -21,7 +21,6 @@ CREATE TABLE "Record Label" (
 	Name varchar,
 	YearFounded date,
 	Founder varchar,
-	Worth real
 );
 
 CREATE TABLE "Genre" (
@@ -97,6 +96,8 @@ VALUES (1, 'Ghost Reveries', 2, 2005, 5, 3),
 	   (8, 'Abbey Road', 8, 1969, 7, 6),
 	   (9, 'Vessel', 6, 2013, 3, 5),
 	   (10, 'The Wall', 10, 1979, 7, 11)
+	   (11, 'Regional At Best', 6, 2011, 12, 12),
+	   (12, 'Texas Flood', 9, 1983, 10, 7)
 ;
 
 INSERT INTO "Genre" (id, Name)
@@ -110,20 +111,28 @@ VALUES (1, 'Pop'),
 	   (8, 'Progressive Rock'),
 	   (9, 'Psychadelic Rock'),
 	   (10, 'Texas Blues'),
-	   (11, 'Country')
+	   (11, 'Country'),
+	   (12, 'Indie Pop')
 ;
 
-INSERT INTO "Record Label" (id, Name, YearFounded, Founder, Worth)
-VALUES (1, 'Interscope Records', ),
-	   (2, 'Nuclear Blast', ),
-	   (3, 'Roadrunner Records', ),
-	   (4, 'Republic Records', ), 
-	   (5, 'Fueled by Ramen', ), 
-	   (6, 'Apple Records', ), 
-	   (7, 'Legacy Recordings', ),
-	   (8, 'EMI', ),
-	   (9, 'Equal Vision', ),
-	   (10, 'Big Machine Records', ),
-	   (11, 'Columbia Records', ),
+INSERT INTO "Record Label" (id, Name, YearFounded, Founder)
+VALUES (1, 'Interscope Records', 1990, 'Jimmy Lovine, Ted Field'),
+	   (2, 'Nuclear Blast', 1987, 'Markus Staiger'),
+	   (3, 'Roadrunner Records', 1980, 'Cees Wessels'),
+	   (4, 'Republic Records', 1995, 'Avery Lipman, Monte Lipman'), 
+	   (5, 'Fueled by Ramen', 1996, 'John Janick, Vinnie Fiorello'), 
+	   (6, 'Apple Records', 1968, 'John Lennon, Paul McCartney, George Harrison, Ringo Starr'), 
+	   (7, 'Epic Records', 1953, 'Columbia Records'),
+	   (8, 'EMI', 1931, 'Citigroup'),
+	   (9, 'Equal Vision', 1990, 'Ray Cappo'),
+	   (10, 'Big Machine Records', 2005, 'Scott Borchetta'),
+	   (11, 'Columbia Records', 1887, 'Edward Easton'),
+	   (12, 'Self Published')
 ;
 
+	   (6, 'Another Brick In The Wall, Part 1', 10, 10, 7, 3:11, 1979),
+	   (7, 'Sparks Fly', 7, 6, 11, 4:22, 2011),
+	   (8, 'House of Gold', 6, 9, 4, 2:43, 2013),
+	   (9, 'Car Radio', 6, 11, 3, 4:27, 2011),
+	   (10, 'Texas Flood', 9, 12, 10, 5:21, 1983)
+;
