@@ -132,14 +132,14 @@ VALUES (1, 'Interscope Records', 1990, 'Jimmy Lovine, Ted Field'),
 ;
 
 INSERT INTO "Song" (id, Title, Artist, Album, Genre, SongLength, YearReleased)
-VALUES (1, 'National Anthem', 1, 2, 2, 3:51 ),
-	   (2, 'Reverie/Harlequin Forest', 2, 1, 5, 11:39),
-	   (3, 'Three Evils (Embodied in Love and Shadow)', 3, 3, 8, 5:11),
-	   (4, 'Honeymoon Avenue', 4, 4, 1, 5:39),
-	   (5, 'Rebirth', 5, 5, 6, 4:58),
-	   (6, 'Another Brick In The Wall, Part 1', 10, 10, 7, 3:11, 1979),
-	   (7, 'Sparks Fly', 7, 6, 11, 4:22, 2011),
-	   (8, 'House of Gold', 6, 9, 4, 2:43, 2013),
-	   (9, 'Car Radio', 6, 11, 3, 4:27, 2011),
-	   (10, 'Texas Flood', 9, 12, 10, 5:21, 1983)
+VALUES (1, 'National Anthem', 1, 2, 2, '3:51' 2012),
+	   (2, 'Reverie/Harlequin Forest', 2, 1, 5, '11:39', 2005),
+	   (3, 'Three Evils (Embodied in Love and Shadow)', 3, 3, 8, '5:11', 2003),
+	   (4, 'Honeymoon Avenue', 4, 4, 1, '5:39', 2013),
+	   (5, 'Rebirth', 5, 5, 6, '4:58', 2017),
+	   (6, 'Another Brick In The Wall, Part 1', 10, 10, 7, '3:11', 1979),
+	   (7, 'Sparks Fly', 7, 6, 11, '4:22', 2011),
+	   (8, 'House of Gold', 6, 9, 4, '2:43', 2013),
+	   (9, 'Car Radio', 6, 11, 3, '4:27', 2011),
+	   (10, 'Texas Flood', 9, 12, 10, '5:21', 1983)
 ;
