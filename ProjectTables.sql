@@ -11,7 +11,7 @@ CREATE TABLE "Albums" (
 	id integer,
 	Name varchar,
 	Artist integer,
-	Released date, 
+	Released date,
 	Genre integer,
 	RecordLabel integer
 );
@@ -117,9 +117,9 @@ INSERT INTO "Record Label" (id, Name, YearFounded, Founder, Worth)
 VALUES (1, 'Interscope Records', ),
 	   (2, 'Nuclear Blast', ),
 	   (3, 'Roadrunner Records', ),
-	   (4, 'Republic Records', ), 
-	   (5, 'Fueled by Ramen', ), 
-	   (6, 'Apple Records', ), 
+	   (4, 'Republic Records', ),
+	   (5, 'Fueled by Ramen', ),
+	   (6, 'Apple Records', ),
 	   (7, 'Legacy Recordings', ),
 	   (8, 'EMI', ),
 	   (9, 'Equal Vision', ),
@@ -127,3 +127,10 @@ VALUES (1, 'Interscope Records', ),
 	   (11, 'Columbia Records', ),
 ;
 
+INSERT INTO "Song" (id, Title, Artist, Album, Genre, SongLength, YearReleased)
+VALUES (1, 'National Anthem', 'Lana Del Ray', 'Born to Die', 'Dream Pop', 3:51 ),
+	   (2, 'Reverie/Harlequin Forest', 'Opeth', 'Ghost Reveries', 'Progressive Metal', 11:39),
+	   (3, 'Three Evils (Embodied in Love and Shadow)', 'Coheed and Cambria', 'In Keeping Secrets of Silent Earth: 3', 'Progressive Rock', 5:11),
+	   (4, 'Honeymoon Avenue', 'Ariana Grande', 'Yours Truly', 'Pop', 5:39),
+	   (5, 'Rebirth', 'Eluveitie', 'Ategnatos', 'Celtic Death Metal', 4:58),
+;
