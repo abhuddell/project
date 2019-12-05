@@ -11,7 +11,7 @@ CREATE TABLE "Albums" (
 	id integer,
 	Name varchar,
 	Artist integer,
-	Released date, 
+	Released date,
 	Genre integer,
 	RecordLabel integer
 );
@@ -115,6 +115,7 @@ VALUES (1, 'Pop'),
 	   (12, 'Indie Pop')
 ;
 
+<<<<<<< HEAD
 INSERT INTO "Record Label" (id, Name, YearFounded, Founder)
 VALUES (1, 'Interscope Records', 1990, 'Jimmy Lovine, Ted Field'),
 	   (2, 'Nuclear Blast', 1987, 'Markus Staiger'),
@@ -130,9 +131,16 @@ VALUES (1, 'Interscope Records', 1990, 'Jimmy Lovine, Ted Field'),
 	   (12, 'Self Published')
 ;
 
+INSERT INTO "Song" (id, Title, Artist, Album, Genre, SongLength, YearReleased)
+VALUES (1, 'National Anthem', 'Lana Del Ray', 'Born to Die', 'Dream Pop', 3:51 ),
+	   (2, 'Reverie/Harlequin Forest', 'Opeth', 'Ghost Reveries', 'Progressive Metal', 11:39),
+	   (3, 'Three Evils (Embodied in Love and Shadow)', 'Coheed and Cambria', 'In Keeping Secrets of Silent Earth: 3', 'Progressive Rock', 5:11),
+	   (4, 'Honeymoon Avenue', 'Ariana Grande', 'Yours Truly', 'Pop', 5:39),
+	   (5, 'Rebirth', 'Eluveitie', 'Ategnatos', 'Celtic Death Metal', 4:58),
 	   (6, 'Another Brick In The Wall, Part 1', 10, 10, 7, 3:11, 1979),
 	   (7, 'Sparks Fly', 7, 6, 11, 4:22, 2011),
 	   (8, 'House of Gold', 6, 9, 4, 2:43, 2013),
 	   (9, 'Car Radio', 6, 11, 3, 4:27, 2011),
 	   (10, 'Texas Flood', 9, 12, 10, 5:21, 1983)
 ;
+
